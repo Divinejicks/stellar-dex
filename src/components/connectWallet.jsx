@@ -39,13 +39,13 @@ export const kit = new StellarWalletsKit({
 
     return(
         <>
-            {connectedWallet === "" ? (<>
+            {connectedWallet === "" || connectedWallet === undefined || connectedWallet === null ? (<>
               <button onClick={() => connect()} className="bg-blue-600 px-4 py-2 rounded hover:bg-green-500">
                 Connect Wallet
               </button>
             </>) : (<>
               <button onClick={() => onDisConnect()} className="bg-green-600 px-4 py-2 rounded hover:bg-blue-500">
-                Connected ({connectedWallet.slice(0,3)}...{connectedWallet.slice(connectedWallet.length-3)})
+                Connected ({connectedWallet?.slice(0,3)}...{connectedWallet?.slice(connectedWallet.length-3)})
               </button>
             </>)}
         </>
