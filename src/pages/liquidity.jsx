@@ -15,7 +15,7 @@ export const LiquidityPage = () => {
 
   useEffect(() => {
     if (publicKey !== "") {
-      getBalances();
+      // getBalances();
     }
   }, [publicKey]);
 

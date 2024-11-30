@@ -161,15 +161,15 @@ export const HomePage = () => {
         <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="bg-gray-900 p-6 rounded shadow-lg hover:scale-105 transform transition">
             <h2 className="text-3xl font-bold text-blue-400">24h Volume</h2>
-            <p className="text-white mt-4 text-2xl">$12M</p>
+            <p className="text-white mt-4 text-2xl">coming soon</p>
           </div>
           <div className="bg-gray-900 p-6 rounded shadow-lg hover:scale-105 transform transition">
             <h2 className="text-3xl font-bold text-blue-400">Total Liquidity</h2>
-            <p className="text-white mt-4 text-2xl">$45M</p>
+            <p className="text-white mt-4 text-2xl">coming soon</p>
           </div>
           <div className="bg-gray-900 p-6 rounded shadow-lg hover:scale-105 transform transition">
             <h2 className="text-3xl font-bold text-blue-400">Active Users</h2>
-            <p className="text-white mt-4 text-2xl">1500+</p>
+            <p className="text-white mt-4 text-2xl">coming soon+</p>
           </div>
         </div>
       </div>
